@@ -1,0 +1,47 @@
+.banner {
+    display: flex;
+    z-index: 5;
+    align-items: center;
+    position: relative;
+    padding: 131px;
+    .banner__content {
+        display: inline-block;
+        position: relative;
+        z-index: 5;
+        .banner__title {
+            font-weight: 900;
+            font-size: 64px;
+            line-height: 75px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            text-align: center;
+            z-index: 2;
+            padding: 31px;
+            line-height: 75px;
+        }
+        .banner__text {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            z-index: 2;
+            color: #ffffff;
+            padding: 0 85px;
+        }
+        .banner__button {
+            background: #FF4343;
+            max-width: 369px;
+            font-weight: 900;
+            font-size: 24px;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+            color: #ffffff;
+            padding: 26px 90px;
+            display: flex;
+            margin: 0px auto;
+            margin-top: 129px;
+            line-height: 28px;
+        }
+    }
+}

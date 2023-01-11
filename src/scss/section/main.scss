@@ -1,0 +1,19 @@
+.main {
+    background-color: transparent;
+    background: url(/Active_Box/img/background__header.svg) no-repeat top center/cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.main:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #252B49;
+    opacity: 0.8;
+}

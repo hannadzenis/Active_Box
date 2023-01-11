@@ -1,0 +1,19 @@
+.work{
+    .container {
+        max-width: max-content;
+    }
+    .work__projects{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 189px;
+        .project__item{
+        display: flex;
+        flex-wrap: wrap;
+            .project__item__image{
+                display: block;
+                max-width: 370px;
+            }
+        }
+    }
+}

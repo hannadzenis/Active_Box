@@ -1,0 +1,43 @@
+.ourteam {
+    margin: 0 auto;
+    .wrapper__team{
+        display: flex;
+        gap: 30px;
+    }
+    .team__member {
+        max-width: calc(1170px/270px*100%);
+        gap: 30px;
+        .member__photo {
+            max-width: 270px;
+        }
+        .member__name {
+            font-weight: 700;
+            font-size: 24px;
+            color: #2D3033;
+            max-width: 270px;
+            margin: 30px 0 5px 0;
+        }
+        .member__position {
+            font-weight: 400;
+            font-size: 18px;
+            color: #FF4343;
+            text-transform: uppercase;
+            max-width: 270px;
+        }
+        .member__descr {
+            font-weight: 400;
+            font-size: 18px;
+            color: #6C7279;
+            max-width: 270px;
+            margin: 17px 0 37px 0;
+            line-height: 21px;
+        }
+    }
+}
+
+.team__member:after {
+    content: url(/Active_Box/img/facebook_icon.svg);
+    max-width: 39px;
+    display: flex;
+    flex-wrap: wrap;
+}

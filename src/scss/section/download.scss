@@ -1,0 +1,33 @@
+.download {
+    margin: 0 auto;
+    .wrapper__download {
+        max-width: 1170px;
+        display: inline-block;
+        .download__title {
+            font-weight: 500;
+            font-size: 30px;
+            color: #000000;
+            text-align: center;
+            padding: 18px 195px;
+        }
+        .download__text {
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            color: #000000;
+            text-transform: uppercase;
+        }
+        .download__button {
+            background-color: #FF4343;
+            color: #ffffff;
+            font-weight: 900;
+            font-size: 24px;
+            text-align: center;
+            max-width: 370px;
+            text-transform: uppercase;
+            padding: 24px 79px;
+            display: inline-block;
+            margin: 50px 0;
+        }
+    }
+}

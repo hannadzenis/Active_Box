@@ -1,0 +1,348 @@
+@import "https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Raleway:wght@400;500;700;900&display=swap";
+* {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider .carousel-item {
+  height: 532px;
+  padding-bottom: 40px;
+}
+
+.carousel-item__content {
+  width: 50%;
+}
+
+.carousel-indicators {
+  margin-bottom: 0;
+  position: absolute;
+  bottom: -75px;
+}
+
+.slider .carousel-indicators button, .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  border: 1px solid #7e5d6f;
+  border-radius: 50%;
+  margin: 0 12.5px;
+}
+
+.slider .carousel-indicators button:not(.active) {
+  background: #fff;
+}
+
+.slider .carousel-indicators button, .swiper-pagination-bullet-active {
+  background: #7e5d6f;
+}
+
+.header {
+  background-color: #0000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header .header__content {
+  max-height: 100px;
+  z-index: 31;
+  border-bottom: 1px solid #babbc5;
+  align-items: center;
+  display: flex;
+}
+
+.header .header__content .content__logo {
+  max-width: 270px;
+  z-index: 30;
+}
+
+.header .header__content .content__list {
+  z-index: 30;
+  padding-left: 207px;
+  display: flex;
+}
+
+.header .header__content .content__list .list__item a {
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 30;
+  padding: 7px 34px;
+  font-size: 13px;
+  font-weight: 700;
+  position: relative;
+}
+
+.list__item a:hover:after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  transform: translateY(39px);
+}
+
+.banner {
+  z-index: 5;
+  align-items: center;
+  padding: 131px;
+  display: flex;
+  position: relative;
+}
+
+.banner .banner__content {
+  z-index: 5;
+  display: inline-block;
+  position: relative;
+}
+
+.banner .banner__content .banner__title {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 2;
+  padding: 31px;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 75px;
+}
+
+.banner .banner__content .banner__text {
+  text-align: center;
+  z-index: 2;
+  color: #fff;
+  padding: 0 85px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.banner .banner__content .banner__button {
+  max-width: 369px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: #ff4343;
+  align-items: center;
+  margin: 129px auto 0;
+  padding: 26px 90px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  display: flex;
+}
+
+.features {
+  padding: 116px 170px;
+}
+
+.features .features__list {
+  flex-wrap: wrap;
+  gap: 91px 30px;
+  display: flex;
+}
+
+.features .features__list .list__content {
+  max-width: 370px;
+}
+
+.features .features__list .list__content .content__img {
+  max-width: 100px;
+}
+
+.features .features__list .list__content .content__title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #2d3033;
+  align-items: center;
+  margin: 23px 0;
+  padding: 21px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.features .features__list .list__content .content__text {
+  text-align: center;
+  color: #6c7279;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.features .features__list .list__content .content__img {
+  margin: 0 auto;
+}
+
+.work .container {
+  max-width: max-content;
+}
+
+.work .work__projects {
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 189px;
+  display: flex;
+}
+
+.work .work__projects .project__item {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.work .work__projects .project__item .project__item__image {
+  max-width: 370px;
+  display: block;
+}
+
+.ourteam {
+  margin: 0 auto;
+}
+
+.ourteam .wrapper__team {
+  gap: 30px;
+  display: flex;
+}
+
+.ourteam .team__member {
+  max-width: 433.333%;
+  gap: 30px;
+}
+
+.ourteam .team__member .member__photo {
+  max-width: 270px;
+}
+
+.ourteam .team__member .member__name {
+  color: #2d3033;
+  max-width: 270px;
+  margin: 30px 0 5px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ourteam .team__member .member__position {
+  color: #ff4343;
+  text-transform: uppercase;
+  max-width: 270px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.ourteam .team__member .member__descr {
+  color: #6c7279;
+  max-width: 270px;
+  margin: 17px 0 37px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.team__member:after {
+  content: url("facebook_icon.30d90389.svg");
+  max-width: 39px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.download {
+  margin: 0 auto;
+}
+
+.download .wrapper__download {
+  max-width: 1170px;
+  display: inline-block;
+}
+
+.download .wrapper__download .download__title {
+  color: #000;
+  text-align: center;
+  padding: 18px 195px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.download .wrapper__download .download__text {
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.download .wrapper__download .download__button {
+  color: #fff;
+  text-align: center;
+  max-width: 370px;
+  text-transform: uppercase;
+  background-color: #ff4343;
+  margin: 50px 0;
+  padding: 24px 79px;
+  font-size: 24px;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.footer {
+  width: 100%;
+  background-color: #353c65;
+  margin: 0 auto;
+}
+
+.footer .footer__contacts {
+  gap: 30px;
+  display: flex;
+}
+
+.footer .footer__contacts .contacts__main {
+  text-align: center;
+  padding: 71px 85px 0;
+}
+
+.footer .footer__contacts .contacts__main .contacts__title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer .footer__contacts .contacts__main .contacts__text {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main {
+  background: url("background__header.c9876729.svg") top / cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.main:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: .8;
+  background: #252b49;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=intex.e8265c92.css.map */
